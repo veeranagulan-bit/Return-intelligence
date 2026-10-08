@@ -145,3 +145,43 @@ html, body {
 .modern-input:focus { border-color: #35D8FF; box-shadow: 0 0 15px rgba(53,216,255,0.2); }
 
 .modern-input option { background-color: #0b1018; color: #fff; padding: 10px; }
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+  .top-navbar {
+    padding: 15px 20px;
+    gap: 15px;
+  }
+  
+  .nav-brand {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    gap: 10px;
+  }
+  
+  .nav-link {
+    font-size: 13px;
+    padding: 5px;
+  }
+  
+  /* Reduce padding on main containers for mobile */
+  .mobile-container {
+    padding: 20px 15px !important;
+  }
+  
+  .glass-card {
+    padding: 20px !important;
+  }
+  
+  .h1-title {
+    font-size: 32px !important;
+  }
+  
+  /* Make grid 1 column automatically on very small screens */
+  .mobile-grid {
+    grid-template-columns: 1fr !important;
+  }
+}

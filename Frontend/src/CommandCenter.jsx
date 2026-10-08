@@ -10,7 +10,7 @@ export default function CommandCenter() {
   }, []);
 
   return (
-    <div style={{display:'flex', flexDirection:'column', padding: '40px 60px', maxWidth: 1000, margin: '0 auto'}}>
+    <div style={{display:'flex', flexDirection:'column', padding: '20px', maxWidth: 1000, margin: '0 auto'}}>
       <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:20}}>
         <h3 style={{color:'#fff', letterSpacing:1}}>
           <span style={{color: '#3ec8e4'}}>RETURNIQ </span> ENTERPRISE COMMAND CENTER
@@ -120,6 +120,7 @@ export default function CommandCenter() {
     </div>
   );
 }
+
 
 
 

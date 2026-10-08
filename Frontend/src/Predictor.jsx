@@ -58,7 +58,7 @@ export default function Predictor() {
   );
 
   return (
-    <div style={{ padding: '40px 60px', maxWidth: 1000, margin: '0 auto' }}>
+    <div style={{ padding: '20px', maxWidth: 1000, margin: '0 auto' }}>
       
       {/* Header Area */}
       <div style={{marginBottom: 40}}>
@@ -222,5 +222,6 @@ export default function Predictor() {
     </div>
   );
 }
+
 
 

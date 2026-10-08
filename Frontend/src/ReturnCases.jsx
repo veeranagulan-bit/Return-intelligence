@@ -56,7 +56,7 @@ export default function ReturnCases() {
   return (
     <div style={{
       minHeight: '100%', 
-      padding: '40px 60px', 
+      padding: '20px', 
       maxWidth: 1200, 
       margin: '0 auto',
       pointerEvents: 'auto'
@@ -171,6 +171,7 @@ export default function ReturnCases() {
     </div>
   );
 }
+
 
 
 
