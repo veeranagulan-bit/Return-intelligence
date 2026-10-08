@@ -1,0 +1,11 @@
+{
+  "product": "Sofa",
+  "value": 40000,
+  "transitDays": 8,
+  "returnReason": "Damaged",
+  "conditionHint": "broken frame",
+  "severity": "high",
+  "safety": "high",
+  "slaHours": 20,
+  "resaleBefore": 45000
+}
