@@ -92,13 +92,14 @@ export default function Predictor() {
             
             <div className="stagger-field" style={{animationDelay: '0.1s'}}><InputLabel>Product</InputLabel>
               <div style={selectWrapperStyle}>
-                <input type="text" name="product" list="product-options" value={formData.product} onChange={handleChange} className="modern-input" placeholder="Type or select..." />`n                  <datalist id="product-options">
-                  <option value="Sofa">Sofa</option>
-                  <option value="Office Chair">Office Chair</option>
-                  <option value="Dining Table">Dining Table</option>
-                  <option value="Wardrobe">Wardrobe</option>
-                  <option value="Bed Frame">Bed Frame</option>
-                  <option value="Cabinet">Cabinet</option>
+                <input type="text" name="product" list="product-options" value={formData.product} onChange={handleChange} className="modern-input" placeholder="Type or select..." />
+                  <datalist id="product-options">
+                  <option value="Sofa" />
+                  <option value="Office Chair" />
+                  <option value="Dining Table" />
+                  <option value="Wardrobe" />
+                  <option value="Bed Frame" />
+                  <option value="Cabinet" />
                 </datalist>
                 <SelectArrow />
               </div>
@@ -106,11 +107,12 @@ export default function Predictor() {
 
             <div className="stagger-field" style={{animationDelay: '0.15s'}}><InputLabel>Return Reason</InputLabel>
               <div style={selectWrapperStyle}>
-                <input type="text" name="returnReason" list="reason-options" value={formData.returnReason} onChange={handleChange} className="modern-input" placeholder="Type or select..." />`n                  <datalist id="reason-options">
-                  <option value="damaged">Damaged in Transit</option>
-                  <option value="defective">Manufacturing Defect</option>
-                  <option value="wrong_item">Wrong Item</option>
-                  <option value="no_longer_needed">No Longer Needed</option>
+                <input type="text" name="returnReason" list="reason-options" value={formData.returnReason} onChange={handleChange} className="modern-input" placeholder="Type or select..." />
+                  <datalist id="reason-options">
+                  <option value="Damaged in Transit" />
+                  <option value="Manufacturing Defect" />
+                  <option value="Wrong Item" />
+                  <option value="No Longer Needed" />
                 </datalist>
                 <SelectArrow />
               </div>
@@ -118,11 +120,12 @@ export default function Predictor() {
 
             <div className="stagger-field" style={{animationDelay: '0.2s'}}><InputLabel>Condition</InputLabel>
               <div style={selectWrapperStyle}>
-                <input type="text" name="conditionHint" list="condition-options" value={formData.conditionHint} onChange={handleChange} className="modern-input" placeholder="Type or select..." />`n                  <datalist id="condition-options">
-                  <option value="broken">Broken Frame</option>
-                  <option value="scratched">Scratched</option>
-                  <option value="damaged">Damaged</option>
-                  <option value="perfect">Perfect</option>
+                <input type="text" name="conditionHint" list="condition-options" value={formData.conditionHint} onChange={handleChange} className="modern-input" placeholder="Type or select..." />
+                  <datalist id="condition-options">
+                  <option value="Broken Frame" />
+                  <option value="Scratched" />
+                  <option value="Damaged" />
+                  <option value="Perfect" />
                 </datalist>
                 <SelectArrow />
               </div>
@@ -130,10 +133,11 @@ export default function Predictor() {
 
             <div className="stagger-field" style={{animationDelay: '0.25s'}}><InputLabel>Severity</InputLabel>
               <div style={selectWrapperStyle}>
-                <input type="text" name="severity" list="severity-options" value={formData.severity} onChange={handleChange} className="modern-input" placeholder="Type or select..." />`n                  <datalist id="severity-options">
-                  <option value="high">High</option>
-                  <option value="medium">Medium</option>
-                  <option value="low">Low</option>
+                <input type="text" name="severity" list="severity-options" value={formData.severity} onChange={handleChange} className="modern-input" placeholder="Type or select..." />
+                  <datalist id="severity-options">
+                  <option value="High" />
+                  <option value="Medium" />
+                  <option value="Low" />
                 </datalist>
                 <SelectArrow />
               </div>
@@ -141,10 +145,11 @@ export default function Predictor() {
 
             <div className="stagger-field" style={{animationDelay: '0.3s'}}><InputLabel>Safety Risk</InputLabel>
               <div style={selectWrapperStyle}>
-                <input type="text" name="safety" list="safety-options" value={formData.safety} onChange={handleChange} className="modern-input" placeholder="Type or select..." />`n                  <datalist id="safety-options">
-                  <option value="high">High</option>
-                  <option value="medium">Medium</option>
-                  <option value="low">Low</option>
+                <input type="text" name="safety" list="safety-options" value={formData.safety} onChange={handleChange} className="modern-input" placeholder="Type or select..." />
+                  <datalist id="safety-options">
+                  <option value="High" />
+                  <option value="Medium" />
+                  <option value="Low" />
                 </datalist>
                 <SelectArrow />
               </div>
@@ -222,6 +227,7 @@ export default function Predictor() {
     </div>
   );
 }
+
 
 
 
