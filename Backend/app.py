@@ -31,7 +31,7 @@ MODEL_PATH = os.path.join(
     "random_forest_inspection_model.pkl"
 )
 
-model = joblib.load('../models/random_forest_inspection_model.pkl')
+model = joblib.load(MODEL_PATH)
 
 
 # =========================================================
@@ -702,6 +702,7 @@ if __name__ == "__main__":
         port=5000,
         debug=False
     )
+
 
 
 
