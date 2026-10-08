@@ -5,7 +5,7 @@ export default function Predictor() {
   const [formData, setFormData] = useState({
     product: '', value: '', transitDays: '',
     returnReason: '', conditionHint: '',
-    severity: '', safety: '',
+    severity: 'Medium', safety: '',
     slaHours: '', resaleBefore: ''
   });
   
@@ -131,17 +131,7 @@ export default function Predictor() {
               </div>
             </div>
 
-            <div className="stagger-field" style={{animationDelay: '0.25s'}}><InputLabel>Severity</InputLabel>
-              <div style={selectWrapperStyle}>
-                <input type="text" name="severity" list="severity-options" value={formData.severity} onChange={handleChange} className="modern-input" placeholder="Type or select..." />
-                  <datalist id="severity-options">
-                  <option value="High" />
-                  <option value="Medium" />
-                  <option value="Low" />
-                </datalist>
-                <SelectArrow />
-              </div>
-            </div>
+            
 
             <div className="stagger-field" style={{animationDelay: '0.3s'}}><InputLabel>Safety Risk</InputLabel>
               <div style={selectWrapperStyle}>
@@ -173,16 +163,7 @@ export default function Predictor() {
               <input type="number" name="slaHours" value={formData.slaHours} onChange={handleChange} className="modern-input" required />
             </div>
             
-            <div className="stagger-field" style={{gridColumn: '1 / -1', animationDelay: '0.55s'}}>
-              <InputLabel>Inspection Photos & Video</InputLabel>
-              <div style={{
-                width: '100%', padding: '25px', textAlign: 'center',
-                border: '1px dashed rgba(255,255,255,0.15)', borderRadius: 24,
-                color: '#8D98A7', fontSize: 14, cursor: 'pointer', background: 'rgba(255,255,255,0.01)'
-              }}>
-                Drop or choose images / video
-              </div>
-            </div>
+            
 
           </div>
 
@@ -227,6 +208,7 @@ export default function Predictor() {
     </div>
   );
 }
+
 
 
 
