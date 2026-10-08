@@ -185,3 +185,5 @@ html, body {
     grid-template-columns: 1fr !important;
   }
 }
+
+.modern-input::-webkit-calendar-picker-indicator { display: none !important; opacity: 0; }
