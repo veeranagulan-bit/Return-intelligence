@@ -77,7 +77,7 @@ export default function ReturnCases() {
         </h1>
         
         <p style={{color: '#8D98A7', fontSize: 18, margin: 0, fontWeight: 300}}>
-          {cases.length} cases, highest priority first · showing saved sample (service online)
+          {cases.length} cases, highest priority first Â· showing saved sample (service online)
         </p>
       </div>
 
@@ -154,7 +154,7 @@ export default function ReturnCases() {
               </h2>
               
               <p style={{color: '#8D98A7', fontSize: 15, margin: '0 0 30px 0'}}>
-                {c['Damage Severity']} • {c['Return Reason']}
+                {c['Damage Severity']} â€¢ {c['Return Reason']}
               </p>
               
               <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: '#8D98A7', fontSize: 13}}>

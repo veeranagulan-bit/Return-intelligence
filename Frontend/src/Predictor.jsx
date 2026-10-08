@@ -63,7 +63,7 @@ export default function Predictor() {
       {/* Header Area */}
       <div style={{marginBottom: 40}}>
         <div style={{ color: '#8D98A7', fontSize: 11, letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: 15, fontWeight: 600 }}>
-          RANDOM FOREST · INSPECTION MODEL
+          RANDOM FOREST Â· INSPECTION MODEL
         </div>
         
         <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: 46, color: '#fff', margin: '0 0 15px 0', fontWeight: 500, letterSpacing: '-0.02em' }}>
